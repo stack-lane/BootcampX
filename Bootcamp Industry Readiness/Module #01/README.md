@@ -2,7 +2,7 @@
 
 As a professional developer, you'd want to be good + fast and never cheap.
 
-![Good Vs Cheap Vs Fast](./Assets/Good%20Vs%20Cheap%20Vs%20Fast.png "200 200")
+> [Good Vs Cheap Vs Fast](./Assets/Good%20Vs%20Cheap%20Vs%20Fast.png "200 200")
 
 ## Cheat Sheets
 
@@ -23,6 +23,10 @@ As a professional developer, you'd want to be good + fast and never cheap.
 ## Touch typing
 
 - [Typing Club](https://typingclub.com)
+
+## ChatGPT
+
+> [Anatomy Of A Good Prompt](./Assets/Anatomy%20Of%20The%20Prompt.jpg)
 
 ## Git & GitHub References
 
