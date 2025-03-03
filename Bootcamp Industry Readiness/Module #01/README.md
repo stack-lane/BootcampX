@@ -7,6 +7,7 @@ As a professional developer, you'd want to be good + fast and never cheap.
 ## Cheat Sheets
 
 - [Git](./Cheat%20Sheets/Git%20Cheat%20Sheet.pdf)
+- [Markdown](https://www.markdownguide.org/cheat-sheet)
 
 ## Keyboard Shortcuts
 
