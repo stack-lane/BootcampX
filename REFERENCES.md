@@ -1,0 +1,16 @@
+# References
+
+- [OpenAI](https://openai.com)
+- [Kaggle](https://kaggle.com)
+- [Mistral AI](https://mistral.ai)
+- [Figma](https://figma.com)
+- [AI Shorts](https://aishorts.club)
+- [Hugging Face](https://huggingface.co)
+- [Stack Overflow](https://stackoverflow.com)
+- [Meta Llama](https://llama.com)
+- [Reddit](https://reddit.com)
+- [X (previously Twitter)](https://x.com)
+- [Notion](https://notion.so)
+- [Slack](https://slack.com)
+- [Typing Club](https://typingclub.com)
+- [web.dev](https://web.dev)
