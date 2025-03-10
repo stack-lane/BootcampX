@@ -40,6 +40,6 @@ TypeScript is a strongly typed programming language that is built on top of Java
   - `createReminder(...)` - Creates a reminder and stores it.
   - `exists(id: string)` - Checks if a given reminder is present based on its `id`.
   - `getAllReminders()` - Returns all reminders stored so far.
-  - `getReminde(id: string)` - Returns a specific reminder, if present, based on its `id` otherwise returns `null`.
+  - `getReminder(id: string)` - Returns a specific reminder, if present, based on its `id` otherwise returns `null`.
   - `removeReminder(id: string)` - Deletes a reminder based on its `id`.
   - `updateReminder(id: string, ...)` - Updates a given reminder based on its `id`.
