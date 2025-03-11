@@ -2,6 +2,8 @@
 
 > In order to work with RESTful APIs in a convenient way, head over to [postman.com](postman.com) and download Postman.
 
+- ReST = Representational State Transfer
+
 # Request
 
 Any REST request includes four essential parts:
