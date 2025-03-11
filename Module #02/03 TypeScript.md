@@ -30,9 +30,66 @@ TypeScript is a strongly typed programming language that is built on top of Java
 10. Interfaces
 11. Modules - `import`, `export` & `export default`
 
-# Assignment
+## TypeScript + NodeJS set-up
 
-## Reminder
+### 1. Install the following packages to your Node.js project --
+
+```bash
+npm install --save-dev @types/node tsx
+```
+
+Your `package.json` should contain the following two important elements (`type: module` and `devDependencies` with `@types/node` and `tsx` on it) --
+
+```JSON
+{
+  ...
+  "type": "module", // very important
+  "devDependencies": {
+    ...
+    "@types/node": "^20.11.17", // very important
+    "tsx": "^4.7.1" // very important
+    ...
+  }
+  ...
+}
+```
+
+> 💡 We're using `tsx` to run TypeScript on NodeJS
+
+### 2. Add a file called `tsconfig.json` with the following contents --
+
+```JSON
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx"
+  }
+}
+```
+
+### 3. You can now run your `.ts` files by running `npx tsx <file-name>`.
+
+Or you can create a start script as below --
+
+```JSON
+{
+  "scripts": [
+    "start": "tsx src/index.ts" // assuming src/index.ts exists
+  ]
+}
+```
+
+---
+
+# Assignments
+
+## Assignment #001 - Reminders
 
 - Create a class called `ReminderDatabase` that keeps track of various reminders.
 - It should have the following methods on it -
