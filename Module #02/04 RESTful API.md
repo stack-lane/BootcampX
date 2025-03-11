@@ -2,6 +2,8 @@
 
 > In order to work with RESTful APIs in a convenient way, head over to [postman.com](postman.com) and download Postman.
 
+# Request
+
 Any REST request includes four essential parts:
 
 - HTTP method
@@ -24,6 +26,10 @@ There are five important HTTP methods --
   Partially updates an existing resource.
 - `DELETE` <br/>
   Deletes a resource.
+
+### Resources
+
+- [HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
 ## Endpoint
 
@@ -51,9 +57,19 @@ The specific address of the resource on the server, typically structured as a pa
 
 Key-value pairs providing additional information like `content-type`, `authentication` details, and other metadata related to the request.
 
+### Resources
+
+- [HTTP Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+
 ## Body
 
 The data sent to the server for operations like creating or updating a resource, formatted in a specified data type like JSON or XML. This piece of the request is optional.
+
+# Response
+
+[HTTP Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+
+---
 
 ## Key points about REST requests
 
