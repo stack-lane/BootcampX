@@ -9,7 +9,7 @@ Any REST request includes four essential parts:
 - HTTP method
 - endpoint
 - headers
-- body (optional)
+- body (depending on HTTP method)
 
 ## HTTP method
 
@@ -61,13 +61,51 @@ Key-value pairs providing additional information like `content-type`, `authentic
 
 - [HTTP Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
 
-## Body
+## Body (depending on HTTP method)
 
 The data sent to the server for operations like creating or updating a resource, formatted in a specified data type like JSON or XML. This piece of the request is optional.
 
 # Response
 
-[HTTP Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+Any REST response incldues three essential parts:
+
+- HTTP Code
+- Headers
+- Body (optional)
+
+## HTTP Code
+
+Indicates the result of the request (e.g., `200 OK`, `201 Created`, `400 Bad Request`, `404 Not Found`, `500 Internal Server Error`).
+
+### Resources
+
+- [HTTP Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+
+## Headers
+
+Provide metadata about the response, such as content type (`Content-Type: application/json`), caching policies, authentication info, or rate limits.
+
+```http
+Content-Type: application/json
+Cache-Control: no-cache
+```
+
+### Resources
+
+- [HTTP Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+
+## Body (depending on HTTP method)
+
+- Contains the actual data returned by the server, usually in `JSON`, `XML`, or other formats.
+- It may include requested resources, error messages, or confirmation of actions.
+
+```JSON
+{
+  "id": 123,
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+```
 
 ---
 
@@ -115,7 +153,9 @@ const decodedData = JSON.parse(tranportableData);
 
 ---
 
-# Quick Assignment (Reminders API)
+# Assignments
+
+## Assignment #001 (Reminders)
 
 Create an API end-point that looks like as shown below --
 
