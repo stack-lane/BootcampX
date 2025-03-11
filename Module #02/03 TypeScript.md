@@ -39,7 +39,12 @@ TypeScript is a strongly typed programming language that is built on top of Java
 
   - `createReminder(...)` - Creates a reminder and stores it.
   - `exists(id: string)` - Checks if a given reminder is present based on its `id`.
+  - `markReminderAsCompleted(id: string)` - Marks a reminder as `completed`.
+  - `unmarkReminderAsCompleted(id: string)` - Unmarks a reminder as `completed`.
   - `getAllReminders()` - Returns all reminders stored so far.
   - `getReminder(id: string)` - Returns a specific reminder, if present, based on its `id` otherwise returns `null`.
-  - `removeReminder(id: string)` - Deletes a reminder based on its `id`.
+  - `getAllRemindersMarkedAsCompleted()` - Returns all reminders that are marked as `completed`.
+  - `getAllRemindersNotMarkedAsCompleted()` - Returns all reminders that are not marked as `completed`.
+  - `getAllRemindersDueByToday()` - Returns all reminders that are due by today.
   - `updateReminder(id: string, ...)` - Updates a given reminder based on its `id`.
+  - `removeReminder(id: string)` - Deletes a reminder based on its `id`.
