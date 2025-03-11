@@ -75,7 +75,7 @@ Your `package.json` should contain the following two important elements (`type: 
 
 ### 3. You can now run your `.ts` files by running `npx tsx <file-name>`.
 
-Or you can create a start script as below --
+Or you can create a `start` script as below --
 
 ```JSON
 {
