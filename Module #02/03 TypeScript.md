@@ -122,7 +122,7 @@ Create a series of methods as below for a for a Movies Management system.
 - `getMovie(id: string)` — Get movie details.
 - `removeMovie(id: string)` — Remove a movie.
 
-> Once you've completed your assignment, submit it over [here](https://forms.gle/yq2wBbufpQo7Atgu6).
+> Once you've completed your assignment, submit it over [here](https://forms.gle/UGD9m8wps1r5rL7y5).
 
 ## Assignment #003 - Fitness Tracker
 
@@ -136,4 +136,4 @@ Create a series of methods that will make up a Fitness Tracker mechanism. Throw 
 - `getUser(id: string)` — Get user details.
 - `updateUser(id: string, updatedFields: Partial<Omit<User, 'id'>>): void` — Update user details.
 
-> Once you've completed your assignment, submit it over [here](https://forms.gle/YSUz2F3MwMW6r1LA9).
+> Once you've completed your assignment, submit it over [here](https://forms.gle/5YAxiKLUnE8xj9ZX7).
