@@ -62,20 +62,20 @@ Your `package.json` should contain the following two important elements (`type: 
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "NodeNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
     "strict": true,
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
-    "types": ["node"],
-    "jsx": "react-jsx",
-    "jsxImportSource": "hono/jsx"
+    "types": ["node"]
   }
 }
 ```
 
-### 3. You can now run your `.ts` files by running `npx tsx <file-name>`.
+### 3. Running your `.ts` files
 
-Or you can create a `start` script as below --
+- You can now run your `.ts` files by running `npx tsx <file-name>`.
+- Or you can create a `start` script as below --
 
 ```JSON
 {
@@ -105,3 +105,35 @@ Or you can create a `start` script as below --
   - `getAllRemindersDueByToday()` - Returns all reminders that are due by today.
   - `updateReminder(id: string, ...)` - Updates a given reminder based on its `id`.
   - `removeReminder(id: string)` - Deletes a reminder based on its `id`.
+
+> Once you've completed your assignment, submit it over [here](https://forms.gle/qm9iS17vmK86XeNy9).
+
+## Assignment #002 - Movies
+
+Create a series of methods as below for a for a Movies Management system.
+
+- `addMovie(...)` — Add a movie with properties: id, title, director, releaseYear, genre.
+- `rateMovie(id: string, rating: number)` — Rate a movie (1-5 stars).
+- `getAverageRating(id: string): number | undefined` — Get average rating of a movie.
+- `getTopRatedMovies()` — Returns movies sorted by highest rating.
+- `getMoviesByGenre(genre: string)` — Get all movies of a genre.
+- `getMoviesByDirector(director: string)` — Get all movies by a director.
+- `searchMoviesBasedOnKeyword(keyword: string)` - Get all movies that contain the given `keyword` in their `title` property.
+- `getMovie(id: string)` — Get movie details.
+- `removeMovie(id: string)` — Remove a movie.
+
+> Once you've completed your assignment, submit it over [here](https://forms.gle/yq2wBbufpQo7Atgu6).
+
+## Assignment #003 - Fitness Tracker
+
+Create a series of methods that will make up a Fitness Tracker mechanism. Throw meaningful errors where appropriate.
+
+- `addUser(...)` — Add a user with properties: id, name, age, weight, height.
+- `logWorkout(userId: string, workout: Workout)` — Add a workout log.
+- `getAllWorkoutsOf(userId: string)` — Get all workouts for a user.
+- `getAllWorkoutsByType(userId: string, type: string)` — Get workouts filtered by type (e.g., "running", "yoga").
+- `getUsers()` — Return all users.
+- `getUser(id: string)` — Get user details.
+- `updateUser(id: string, updatedFields: Partial<Omit<User, 'id'>>): void` — Update user details.
+
+> Once you've completed your assignment, submit it over [here](https://forms.gle/YSUz2F3MwMW6r1LA9).
