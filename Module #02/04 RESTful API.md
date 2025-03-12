@@ -152,24 +152,3 @@ const data = {
 const tranportableData = JSON.stringify(data);
 const decodedData = JSON.parse(tranportableData);
 ```
-
----
-
-# Assignments
-
-## Assignment #001 (Reminders)
-
-Create an API end-point that looks like as shown below --
-
-- `GET` `/reminders` <br/>
-  Retrieves a list of all remainders.
-- `GET` `/remainders/:id` <br/>
-  Retrieves a specific to-do item by its `id`.
-- `POST` `/remainders` <br/>
-  Creates a new remainder.
-- `PUT` `/remainders/:id` <br/>
-  Updates an existing remainder completely.
-- `PATCH` `/remainders/:id` <br/>
-  Updates an existing remainder partially.
-- `DELETE` `/remainders/:id` <br/>
-  Deletes a remainder.
