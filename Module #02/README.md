@@ -6,4 +6,4 @@
 4. [RESTful API](./04%20RESTful%20API.md)
 5. [Hono](./05%20Hono.md)
 6. [PostgreSQL](./06%20PostgreSQL.md)
-7. [Drizzle](./07%20Drizzle.md)
+7. [Prisma](./07%20Prisma.md)
