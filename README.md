@@ -15,6 +15,7 @@
 # Assignments
 
 - [Assignments](./Assignments/)
+- [Evaluation Pattern](./Assignments/Evaluation%20Pattern.md)
 
 # Extras
 
