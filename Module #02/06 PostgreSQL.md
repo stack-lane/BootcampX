@@ -34,3 +34,79 @@ Head over to [pgadmin.org](https://www.pgadmin.org) and check it out.
 - You can concentrate on writing business-relevant code rather than Postgres-specific boilerplate code.
 
 Head over to [neon.tech](https://neon.tech), create a project and start using a fully-managed & hosted Postgres server.
+
+## Verifying Installation
+
+After installing PostgreSQL, you can verify the installation by running the following command in your terminal:
+
+```sh
+psql --version
+```
+
+This should display the version of `psql` installed on your system.
+
+## Basic SQL Commands
+
+Here are some basic SQL commands to get you started with PostgreSQL:
+
+### Creating a Database
+
+```sql
+CREATE DATABASE mydatabase;
+```
+
+### Connecting to a Database
+
+```sh
+psql -d mydatabase
+```
+
+### Creating a Table
+
+```sql
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100) UNIQUE NOT NULL
+);
+```
+
+### Inserting Data
+
+```sql
+INSERT INTO users (name, email) VALUES ('John Doe', 'john.doe@example.com');
+```
+
+### Querying Data
+
+```sql
+SELECT * FROM users;
+```
+
+## Database Backup and Restore
+
+### Backup a Database
+
+You can back up a PostgreSQL database using the `pg_dump` utility:
+
+```sh
+pg_dump mydatabase > mydatabase_backup.sql
+```
+
+### Restore a Database
+
+You can restore a PostgreSQL database using the `psql` utility:
+
+```sh
+psql mydatabase < mydatabase_backup.sql
+```
+
+## Running a SQL Script
+
+You can run a SQL script using the `psql` utility. Assuming you have a script named `script.sql`, you can execute it as follows:
+
+```sh
+psql -d mydatabase -f script.sql
+```
+
+This will run the SQL commands in `script.sql` against the `mydatabase` database.
