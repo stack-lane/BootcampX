@@ -2,25 +2,30 @@
 
 Candidates will be evaluated on the basis of the following components —
 
-1. Minor Assignments (10 points each) - About 3 assignments / Week
-2. ⁠Major Assignments (20 points each) - 1 / Module
-3. ⁠Final Project (50 points)
+| Component             | Points         | Frequency                  | Type       |
+| --------------------- | -------------- | -------------------------- | ---------- |
+| **Minor Assignments** | 10 points each | About 3 assignments / Week | Individual |
+| **Major Assignments** | 20 points each | 1 / Module                 | Individual |
+| **Final Project**     | 50 points      | 1                          | Group      |
 
 The cumulative score of these will decide their final competence level gained from the bootcamp/internship.
 
-Competence Levels —
+| Competence Level  | Score Range  |
+| ----------------- | ------------ |
+| **Excellent**     | ≥90%         |
+| **Good**          | ≥70% && <90% |
+| **Average**       | ≥40% && <70% |
+| **Below Average** | ≥10% && <40% |
+| **Fail**          | < 10%        |
 
-1. Excellent (above 90%)
-2. ⁠Good (70% - 90%)
-3. ⁠Average (40% - 70%)
-4. ⁠Below Average (10% - 40%)
-5. ⁠Fail (upto 10%)
+## Evaluation Criteria
 
-## Note
+Assignments will be evaluated based on the following criteria:
 
-We'll be evaluating your assignments along the following dimensions (among others that aren't listed here explicitly) --
-
-1. Completeness of the assignments - Your assignments have to fully and completely be in-accordance with the instructions given.
-2. Code Quality - Good, well-written code that's highly readable, extensible, maintainable, considerate of edge cases and performant. You're expected to adhere to good coding conventions, folder structures, folder names and so on.
-3. Sanity Metrics - Sanity metrics such as frequent and well-structured git commits, accurate and truthful documentation, useful starter instructions, etc.
-4. Leveraging AI tools in the right way - Too much of AI-ness without you having understood the underlying concepts will lead to negative marking but using AI to do the right things, to automate the boring bits and more will be rewarded. Be judicious in your use of AI.
+1. **Completeness**: Assignments must fully adhere to the given instructions.
+2. **Code Quality**: Code should be readable, maintainable, and performant. Follow good coding conventions and structure.
+3. **Sanity Metrics**: Ensure frequent, well-structured git commits, accurate documentation, and useful starter instructions.
+4. **Effective Use of AI**: Use AI tools judiciously. Over-reliance without understanding concepts will lead to negative marking.
+5. **Problem-Solving Skills**: Demonstrate clear and efficient problem-solving approaches.
+6. **Collaboration**: Show effective teamwork and communication in group assignments.
+7. **Innovation**: Incorporate creative and innovative solutions where applicable.
