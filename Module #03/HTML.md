@@ -2,7 +2,7 @@
 
 - There are a total of 100 HTML tags.
 
-Here's a breakdown of some common and important HTML tags:
+Here's a list of some common and important HTML tags:
 
 - Document Type: `<!DOCTYPE html>`
 - Basic Structure: `<html>`, `<head>`, `<body>`, `<title>`, `<header>`, `<footer>`
