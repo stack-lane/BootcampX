@@ -1,5 +1,9 @@
 # Assignment 006 (Carbon)
 
+> This assignment is due by 12:30 PM, 20 March 2025.
+>
+> Once you've completed the assignment, submit it over [here](https://forms.gle/1KHZW8o8r5tBvCbz8).
+
 ## Database Structure
 
 Create a `College` database that --
