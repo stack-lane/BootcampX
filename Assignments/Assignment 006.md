@@ -4,6 +4,8 @@
 >
 > Once you've completed the assignment, submit it over [here](https://forms.gle/1KHZW8o8r5tBvCbz8).
 
+_**NOTE: Your assignment repository should be named `carbon`.**_
+
 ## Database Structure
 
 Create a `College` database that --
