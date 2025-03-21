@@ -5,6 +5,8 @@
 3. [Assignment #003](./Assignment%20003.md)
 4. [Assignment #004](./Assignment%20004.md)
 5. [Assignment #005](./Assignment%20005.md)
+6. [Assignment #006](./Assignment%20006.md)
+7. [Assignment #007](./Assignment%20007.md)
 
 ## Evaluation Pattern
 
