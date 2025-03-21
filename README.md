@@ -21,3 +21,4 @@
 
 - [Git Good Practices](./Extras/Git%20Good%20Practices.md)
 - [TypeScript Good Practices](./Extras/TypeScript%20Good%20Practices.md)
+- [References](./Extras/References.md)
