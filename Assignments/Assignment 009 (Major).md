@@ -1,5 +1,7 @@
 # Assignment #009 (Major | `HackerNews`)
 
+> Repository Name: `hackernews-server`
+
 Replicate the core features of "Hacker News" platform.
 
 It has the following entites --
