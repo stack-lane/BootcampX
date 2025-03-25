@@ -1,4 +1,4 @@
-# Assignment #009 (Major | `HackerNews`)
+# Assignment #008 (Major | `HackerNews`)
 
 > Repository Name: `hackernews-server`
 
