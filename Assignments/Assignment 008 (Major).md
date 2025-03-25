@@ -1,8 +1,12 @@
-# Assignment #008 (Major | `HackerNews`)
+# Assignment #008 <br/> Major | Hacker News BackEnd
 
-> Repository Name: `hackernews-server`
+**In this assignment, you'll replicate the core features of "Hacker News" platform.**
 
-Replicate the core features of "Hacker News" platform.
+> This assignment is due by 5:00 PM, 28 March 2025.
+>
+> Once you've completed the assignment, submit it over [here](https://forms.gle/MCQrxPV9n3Di4h7b6).
+
+> Your repository name should be compulsorily named `hackernews-server` for this assignment.
 
 It has the following entites --
 
