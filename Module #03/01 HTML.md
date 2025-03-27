@@ -4,20 +4,18 @@
 
 Here's a list of some common and important HTML tags:
 
-- Document Type: `<!DOCTYPE html>`
-- Basic Structure: `<html>`, `<head>`, `<body>`, `<title>`, `<header>`, `<footer>`
-- Semantics - `<main>`, `<aside>`, `<article>`
-- Headings: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`
-- Paragraphs: `<p>`, `<b>`, `<strong>`, `<i>`
-- Links: `<a>`
-- Images: `<img>`, `<svg>`
-- Lists: `<ul>`, `<ol>`, `<li>`
-- Divisions: `<div>`, `<span>`
-- Forms: `<form>`, `<input>`, `<button>`, `<select>`, `<textarea>`, `<label>`
-- Comments: `<!-- ... -->`
-- Line Breaks: `<br>`
-- Horizontal Rules: `<hr>`
-- Others - `<nav>`, `<style>`, `<script>`, `<link>`, `<meta>`
+| #   | Category                 | Description                                       | Example Tags                                              |
+| --- | ------------------------ | ------------------------------------------------- | --------------------------------------------------------- |
+| 1   | Document Metadata        | Defines metadata and instructions for the browser | `<html>`, `<head>`, `<title>`, `<meta>`, `<link>`         |
+| 2   | Sectioning Content       | Organizes content into logical sections           | `<header>`, `<nav>`, `<section>`, `<article>`, `<footer>` |
+| 3   | Text Content             | Displays text and related formatting              | `<h1>`–`<h6>`, `<p>`, `<span>`, `<strong>`, `<em>`        |
+| 4   | Lists                    | Defines ordered, unordered, or descriptive lists  | `<ul>`, `<ol>`, `<li>`, `<dl>`, `<dt>`, `<dd>`            |
+| 5   | Hypertext & Links        | Creates links to other pages or resources         | `<a>`, `<link>`                                           |
+| 6   | Media                    | Embeds visual or audio media                      | `<img>`, `<audio>`, `<video>`, `<source>`, `<track>`      |
+| 7   | Forms & Input            | Captures user input and submits data              | `<form>`, `<input>`, `<textarea>`, `<select>`, `<button>` |
+| 8   | Tables                   | Displays tabular data                             | `<table>`, `<tr>`, `<td>`, `<th>`, `<thead>`, `<tbody>`   |
+| 9   | Scripting & Programmatic | Adds scripts or defines programmatic behaviors    | `<script>`, `<noscript>`, `<template>`, `<canvas>`        |
+| 10  | Embedded Content         | Embeds other documents or applications            | `<iframe>`, `<embed>`, `<object>`                         |
 
 # Basic Structure Of HTML Document
 
@@ -40,6 +38,12 @@ Here's a list of some common and important HTML tags:
 - `<html>` is the root element. Semantically, there should only be one root `<html>` element per HTML file/document. Although the syntax of HTML is very forgiving in that sense.
 - `<head>` contains meta-information about the document (not visible on the page, although can be used by the browser to render some of this onto tab titles and all).
 - `<body>` contains all the visible elements of the page such as headings, paragraphs, links, etc.
+
+## Elements/Tags
+
+- [Void elements](https://developer.mozilla.org/en-US/docs/Glossary/Void_element)
+- [Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) & [Booealn Attributes](https://developer.mozilla.org/en-US/docs/Glossary/Boolean/HTML)
+- [Character References](https://developer.mozilla.org/en-US/docs/Glossary/Character_reference)
 
 ## Browser
 
