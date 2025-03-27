@@ -5,8 +5,8 @@ Candidates will be evaluated on the basis of the following components —
 | Component             | Points         | Frequency                  | Type       |
 | --------------------- | -------------- | -------------------------- | ---------- |
 | **Minor Assignments** | 10 points each | About 3 assignments / Week | Individual |
-| **Major Assignments** | 20 points each | 1 / Module                 | Individual |
-| **Final Project**     | 50 points      | 1                          | Group      |
+| **Major Assignments** | 50 points each | 1 / Module                 | Individual |
+| **Final Project**     | 100 points     | 1                          | Group      |
 
 The cumulative score of these will decide their final competence level gained from the bootcamp/internship.
 
