@@ -6,7 +6,7 @@ Microsoft Azure is a cloud computing platform and service created by Microsoft. 
 
 Whether you're hosting a simple website, running a full-scale enterprise app, or training AI models — Azure has you covered.
 
-There are x key concepts in Azure --
+There are 5 key concepts in Azure --
 
 1. Microsoft Entra ID
    Microsoft Entra ID is Azure’s cloud-based identity and access management (IAM) service. It’s what handles login, user management, permissions, and access control for all your Azure services and Microsoft apps.
@@ -53,6 +53,22 @@ There are x key concepts in Azure --
 | Subscription       | Billing + resource container       | Project budget and tracker    |
 | Resource Group     | Logical group of resources         | Folder for related services   |
 | Region/Zone        | Where your data lives              | Data center location + backup |
+
+Along with this, there are two other important concepts to learn about a CI/CD pipeline (more on CI/CD later).
+
+1. Azure Container Registry (ACR)  
+   Azure Container Registry is a private Docker registry hosted in Azure.
+
+   It allows you to store, manage, and secure Docker container images (and Helm charts, OCI artifacts, etc.) in your own Azure environment — instead of using public registries like Docker Hub.
+
+   > 💡 Think of ACR as your organization's private app store for containers.
+
+2. Azure Container Apps (ACA)
+   Azure Container Apps is a serverless container platform — it lets you run containerized apps without managing servers or infrastructure.
+
+   You just deploy your container, and Azure takes care of scaling, networking, and runtime — automatically.
+
+   > 💡 Think of Azure Container Apps as a run-anywhere engine — perfect for deploying modern apps fast, without worrying about Kubernetes complexity.
 
 ---
 
