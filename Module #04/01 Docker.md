@@ -101,6 +101,34 @@ README.md
 
 > 💡 Always include a `.dockerignore` to keep your images clean, small, and production-ready.
 
+## Docker Container Registry (DockerHub)
+
+A Docker Container Registry is a storage and distribution system for Docker images. It’s where you push (upload) your images after building them and pull (download) them when you need to run containers.
+
+> 💡 Think of it like an app store — but for containers.
+
+**Common Workflow**
+
+- You build your Docker image locally
+
+- Then you push it to a registry (public or private)
+
+- Later, you can pull that image from anywhere and run it as a container
+
+**Common Docker Registries**
+
+- Docker Hub (default, public registry, paid private registry)
+- GitHub Container Registry (GHCR)
+- Azure Container Registry (ACR)
+- Amazon Elastic Container Registry (ECR)
+- Google Artifact Registry (GCR)
+
+**Why is a Docker Container Registry needed?**
+
+- Enables easy sharing, versioning, and deployment of container images
+- Plays a key role in CI/CD pipelines
+- Allows centralized management of images across teams or environments
+
 ---
 
 References: [Docker's Official Resources](https://www.docker.com/resources/what-container)
