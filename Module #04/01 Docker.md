@@ -29,7 +29,7 @@ There are two key concepts around Docker --
 
    You build an image using a Dockerfile, which tells Docker how to construct this environment.
 
-   > Think of an `image` like a recipe for a dish.
+   > 💡 Think of an `image` like a recipe for a dish.
 
 3. Docker Container
 
@@ -37,7 +37,7 @@ There are two key concepts around Docker --
 
    You can spin up multiple containers from the same image — each one isolated and self-contained.
 
-   > If an image is the recipe, the container is the dish served on the plate.
+   > 💡 If an image is the recipe, the container is the dish served on the plate.
 
 | **Component**    | **What it is**                      | **Analogy**                     |
 | ---------------- | ----------------------------------- | ------------------------------- |
