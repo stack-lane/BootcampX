@@ -46,8 +46,8 @@ In this guide, we'll walk through how to build a full-fledged CI/CD pipeline whe
 Go to Azure Portal → App Registrations and:
 
 1. Search for `App registrations`.
-2. On the _App registrations_ portal, click on `New registration`.
-3. Give an identifiable name for this app (e.g., GitHubActions), allot it `Single tenant` access and hit `Register`.
+2. On the `App registrations` portal, click on `New registration`.
+3. Give an identifiable name for this app (e.g., `GitHubActions`), allot it `Single tenant` access and hit `Register`.
 4. Then open this app by clicking on it, go to `Overview` tab and copy over `Application (client) ID` and store it somewhere safe.
 5. Then click on `Add a certificate or secret` followed by a click on `New client secret`, give some sensible description like "GitHub Actions Secret", retain default expiration period (usually about 6 months) and hit `Add`.
 6. Copy over the `Value` field of the newly created client secret and store it somewhere safe.
