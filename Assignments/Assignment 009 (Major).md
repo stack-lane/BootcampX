@@ -12,6 +12,7 @@ In this assignment, you'll have to dockerize your `hackernews-server` project an
 
 ## Important Restrictions
 
+- You have to compulsorily create a new app registration for GitHub and call it `GitHubActions <YOUR-USN-IN-BLOCK-LETTERS>` (replace `<YOUR-USN-IN-BLOCK-LETTERS>` with your actual `USN`).
 - Your Azure Region should be `centralindia` (Central India).
 - Your **Resource Group (RG)** should be named `HackerNews`.
 - Your **Azure Container Registry (ACR)** should be named `hackernews<your-usn-in-lowercase>.azurecr.io`.
