@@ -8,7 +8,7 @@ In this assignment, you'll have to dockerize your `hackernews-server` project an
 
 > Your should compulsorily use your existing `hackernews-server` repository for this assignment.
 
-> In order to complete this assignment, you can refer [CI/CD Pipeline Resource](../Module%20#04/03%20CI+CD%20Pipeline.md).
+> In order to complete this assignment, you can refer [CI/CD Pipeline Resource](https://github.com/stack-lane/BootcampX/blob/main/Module%20%2304/03%20CI%2BCD%20Pipeline.md).
 
 ## Important Restrictions
 
