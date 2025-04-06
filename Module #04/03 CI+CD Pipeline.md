@@ -137,23 +137,25 @@ Make sure your project contains the following files --
 
    ```JSON
    {
-     "name": "erbium",
-     "type": "module",
-     "version": "1.0.0",
-     "scripts": {
-       "dev": "tsx watch src/index.ts",
-       "build": "tsc -p tsconfig.build.json", // ‼️ Notice this change
-       "start": "node dist/index.js" // ‼️ Notice this change
-     },
-     "dependencies": {
-       "@hono/node-server": "^1.14.0",
-       "hono": "^4.7.5"
-     },
-     "devDependencies": {
-       "@types/node": "^20.11.17",
-       "tsx": "^4.7.1",
-       "typescript": "^5.8.2" // ‼️ Notice this change
-     }
+      "name": "erbium",
+      "version": "2.0.0",
+      "scripts": {
+        "dev": "tsx watch -r dotenv/config src/index.ts",
+        "build": "tsc -p tsconfig.build.json",
+        "start": "node dist/index.js"
+      },
+      "dependencies": {
+        "@hono/node-server": "^1.14.0",
+        "@prisma/client": "^6.5.0",
+        "hono": "^4.7.5"
+      },
+      "devDependencies": {
+        "@types/node": "^20.11.17",
+        "dotenv": "^16.4.7",
+        "prisma": "^6.5.0",
+        "tsx": "^4.7.1",
+        "typescript": "^5.8.2"
+      }
    }
    ```
 
@@ -165,30 +167,30 @@ Make sure your project contains the following files --
 
    ```JSON
    {
-     "compilerOptions": {
-       "lib": ["ESNext"],
-       "target": "ESNext",
-       "module": "ESNext",
-       "moduleDetection": "force",
-       "jsx": "react-jsx",
-       "allowJs": true,
+    "compilerOptions": {
+      "lib": ["ESNext"],
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleDetection": "force",
+      "jsx": "react-jsx",
+      "allowJs": true,
 
-       // Bundler mode
-       "moduleResolution": "bundler",
-       "allowImportingTsExtensions": true,
-       "verbatimModuleSyntax": true,
-       "noEmit": true,
+      // Bundler mode
+      "moduleResolution": "bundler",
+      "allowImportingTsExtensions": true,
+      "verbatimModuleSyntax": true,
+      "noEmit": true,
 
-       // Best practices
-       "strict": true,
-       "skipLibCheck": true,
-       "noFallthroughCasesInSwitch": true,
+      // Best practices
+      "strict": true,
+      "skipLibCheck": true,
+      "noFallthroughCasesInSwitch": true,
 
-       // Some stricter flags (disabled by default)
-       "noUnusedLocals": false,
-       "noUnusedParameters": false,
-       "noPropertyAccessFromIndexSignature": false
-     }
+      // Some stricter flags (disabled by default)
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "noPropertyAccessFromIndexSignature": false
+    }
    }
    ```
 
@@ -197,17 +199,19 @@ Make sure your project contains the following files --
    It should ideally look as below --
 
    ```JSON
-   {
-     "extends": "./tsconfig.json",
-     "compilerOptions": {
-       "noEmit": false,
-       "outDir": "./dist",
-       "module": "ESNext",
-       "target": "ES2020",
-       "allowImportingTsExtensions": false
-     },
-     "include": ["src"]
-   }
+    {
+      "extends": "./tsconfig.json",
+      "compilerOptions": {
+        "noEmit": false,
+        "module": "CommonJS",
+        "target": "ES2020",
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "allowImportingTsExtensions": false,
+        "verbatimModuleSyntax": false
+      },
+      "include": ["src"]
+    }
    ```
 
 Once all of these files are present in your codebase, run `npm i` once to update your `package-lock.json`.
