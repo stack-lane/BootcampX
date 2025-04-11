@@ -2,7 +2,7 @@
 
 **Welcome to official resources repository of BootcampX by StackLane.**
 
-![StackLane Banner](https://github.com/stack-lane/.github/raw/main/profile/StackLane%20Banner.png)
+![StackLane Banner](https://github.com/stack-lane/.github/raw/main/profile/banner.png)
 
 ## Objectives
 
@@ -17,6 +17,7 @@
 - [Module #01](./Module%20#01/)
 - [Module #02](./Module%20#02/)
 - [Module #03](./Module%20#03/)
+- [Moduel #04](./Module%20#04/)
 
 ## Assignments
 
