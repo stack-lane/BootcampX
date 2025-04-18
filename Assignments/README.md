@@ -10,6 +10,7 @@
 8. [Assignment #008 `Major`](<./Assignment%20008%20(Major).md>)
 9. [Assignment #009 `Major`](<./Assignment%20009%20(Major).md>)
 10. [Assignment #010](./Assignment%20010.md)
+11. [Assignment #011](./Assignment%20011.md)
 
 ## Evaluation Pattern
 

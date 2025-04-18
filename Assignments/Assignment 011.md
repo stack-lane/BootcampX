@@ -1,12 +1,12 @@
-# Assignment #010 (Portfolio | React Router)
+# Assignment #011 (Portfolio | Next.js)
 
-> This assignment is due by 5:00 PM, 11 April 2025.
+> This assignment is due by 6:30 PM, 18 April 2025.
 >
-> Once you've completed the assignment, submit it over [here](https://forms.gle/jYXvLYscj95B9exE6).
+> Once you've completed the assignment, submit it over [here](https://forms.gle/5JS6rvc8w8fkwtzf9).
 
 ## Specifications
 
-Create your portfolio website using React.js + ReactRouter.
+Create your portfolio website using Next.js.
 
 Your portfolio website should compulsorily include the following sections --
 
@@ -28,4 +28,4 @@ Once your website is ready, host it on [Vercel](https://vercel.com).
 - Ensure good coding practices.
 - Consider using [Zustand](https://zustand-demo.pmnd.rs) (rather than `useState`) if you'd require state management.
 
-> In order to create your portfolio, you may consider referencing https://kabirasani.com.
+> In order to create your portfolio, you may consider referencing this [repository](https://github.com/emmabostian/developer-portfolios).
