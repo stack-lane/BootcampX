@@ -31,8 +31,9 @@ Create the following routes (along with their controllers, types, etc) as well a
 
 1. `GET` `/posts` -- Returns all posts in reverse chronological order (paginated).
 2. `GET` `/posts/me` -- Returns all posts in reverse chronological order of the current user (referenced by attached JWT) (paginated).
-3. `POST` `/posts` -- Creates a post (authored by the current user).
-4. `DELETE` `/posts/:postId` -- Delete the post (if it belongs the current user) referenced by `postId`.
+3. `GET` `/posts/:username` -- Retusn all posts in reverse chronological order of the user referenced by the attached `username` (paginated).
+4. `POST` `/posts` -- Creates a post (authored by the current user).
+5. `DELETE` `/posts/:postId` -- Delete the post (if it belongs the current user) referenced by `postId`.
 
 ### Likes
 
