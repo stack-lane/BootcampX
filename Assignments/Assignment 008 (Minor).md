@@ -1,4 +1,4 @@
-# Assignment #008 <br/> Major | Hacker News BackEnd
+# Assignment #008 <br/> Minor | Hacker News BackEnd
 
 **In this assignment, you'll replicate the core features of "Hacker News" platform.**
 

@@ -1,4 +1,4 @@
-# Assignment #009 <br/> Major | Hacker News DevOps
+# Assignment #009 <br/> Minor | Hacker News DevOps
 
 In this assignment, you'll have to dockerize your `hackernews-server` project and then set up a CI/CD pipeline between GitHub Actions and Azure.
 
